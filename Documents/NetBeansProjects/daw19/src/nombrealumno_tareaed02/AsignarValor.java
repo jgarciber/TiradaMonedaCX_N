@@ -14,7 +14,8 @@ public class AsignarValor {
 	    int numero;
 	    numero = 10;
 	    System.out.println("El valor del número  es: " + numero);
-		syso.out.println("Modificar el archivo");
+            System.out.println("Modificar el archivo");
+            System.out.println("Segunda modificación");
 	}
 }
 
