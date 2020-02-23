@@ -65,8 +65,12 @@ public class TiradaMonedaCX {
 				cont2 = 0;
 			}
 		}
-		System.out.println("Caras: " + contadorCaras + ", Cruces: " + contadorCruces);
-		System.out.println("Maximo de caras dobles consecutivas: " + maxCaraDobleConse);
-		System.out.println("Maximo de cruces dobles consecutivas: " + maxCruzDobleConse);
+		imprimirResultado(contadorCaras, contadorCruces, maxCaraDobleConse, maxCruzDobleConse);
 	}
+
+    public static void imprimirResultado(int contadorCaras, int contadorCruces, int maxCaraDobleConse, int maxCruzDobleConse) {
+        System.out.println("Caras: " + contadorCaras + ", Cruces: " + contadorCruces);
+        System.out.println("Maximo de caras dobles consecutivas: " + maxCaraDobleConse);
+        System.out.println("Maximo de cruces dobles consecutivas: " + maxCruzDobleConse);
+    }
 }
